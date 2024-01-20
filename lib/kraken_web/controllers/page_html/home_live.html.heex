@@ -1,0 +1,31 @@
+<div>
+    <h1>
+        Ціни на крипто-біржі kraken
+    </h1>
+
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Ask Price</th>
+                <th>Bid Price</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Ask Price</th>
+                <th>Bid Price</th>
+            </tr>
+            </tfoot>
+            <tbody id="trade_pairs" phx-update="stream">
+                <tr :for={{dom_id, pair} <- @streams.trade_pairs} id={dom_id}>
+                    <td><%= pair.name %></td>
+                    <td><%= pair.ask_price %></td>
+                    <td><%= pair.bid_price %></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
