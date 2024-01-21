@@ -6,7 +6,6 @@ defmodule Kraken.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      {DNSCluster, query: Application.get_env(:kraken, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: Kraken.PubSub},
       KrakenWeb.Endpoint,
       Kraken.WebSocket

@@ -57,8 +57,10 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/parse_trans" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ssl_verify_fun" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/unicode_util_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/_build" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/krakex" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/websockex" />
+      <excludeFolder url="file://$MODULE_DIR$/priv/static/assets" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="phoenix" level="project" />
