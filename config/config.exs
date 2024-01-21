@@ -14,10 +14,6 @@ config :kraken, KrakenWeb.Endpoint,
   pubsub_server: Kraken.PubSub,
   live_view: [signing_salt: "dXUEzLWn"]
 
-config :krakex,
-  api_key: "gtL8Zlxbjx1Le9WOX4vnf/Lr+St2VXBt2BWTUrMIlghlPmPypV8E4Dy8",
-  private_key: "KH00j9fqDxtsfOtvJeKM24K4SjWffo36J8MqjCRC42P8P1MUIlfv1We1BKRwUBQySzDmcxgFSMqkRabV+Jl6fQ=="
-
 # Configure esbuild (the version is required)
 config :esbuild,
   version: "0.17.11",

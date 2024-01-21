@@ -49,8 +49,7 @@ defmodule Kraken.MixProject do
       {:dns_cluster, "~> 0.1.1"},
       {:plug_cowboy, "~> 2.5"},
       {:httpoison, "~> 1.1"},
-      {:websockex, "~> 0.4.3"},
-      {:krakex, "~> 0.7.0"}
+      {:websockex, "~> 0.4.3"}
     ]
   end
 
